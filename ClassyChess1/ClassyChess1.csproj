@@ -121,9 +121,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\MatchModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -135,6 +138,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\bigstock-208614778-1024x683.jpg" />
     <Content Include="Images\checkmate-1511866_1920.jpg" />
     <Content Include="Images\chess-2489553_1920.jpg" />
     <Content Include="Images\chess-3325010_1920.jpg" />
@@ -145,6 +149,7 @@
     <Content Include="Images\conservatory-1031494_1920.jpg" />
     <Content Include="Images\fall-1072821_1920.jpg" />
     <Content Include="Images\men-2425121_1920.jpg" />
+    <Content Include="Images\midsection-of-businessman-playing-chess-at-table-960780092-5c2d80d1c9e77c0001a3eeaf.jpg" />
     <Content Include="Images\office-336368_1920.jpg" />
     <Content Include="Images\road-1072823_1920.jpg" />
     <Content Include="Images\tree-779827_1920.jpg" />
@@ -176,10 +181,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\ListUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
