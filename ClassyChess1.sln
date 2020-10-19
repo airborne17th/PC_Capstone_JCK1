@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassyChess1", "ClassyChess1\ClassyChess1.csproj", "{89D028C9-AB5A-409D-AD53-275FB67065E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{F6B430C4-2EA4-49C0-9DD1-E2CFF53FE439}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ChessDB", "ChessDB\ChessDB.sqlproj", "{D17FEA95-8929-4E60-A4FD-EC8FE57A0382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{89D028C9-AB5A-409D-AD53-275FB67065E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D028C9-AB5A-409D-AD53-275FB67065E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D028C9-AB5A-409D-AD53-275FB67065E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B430C4-2EA4-49C0-9DD1-E2CFF53FE439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B430C4-2EA4-49C0-9DD1-E2CFF53FE439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B430C4-2EA4-49C0-9DD1-E2CFF53FE439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B430C4-2EA4-49C0-9DD1-E2CFF53FE439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17FEA95-8929-4E60-A4FD-EC8FE57A0382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17FEA95-8929-4E60-A4FD-EC8FE57A0382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17FEA95-8929-4E60-A4FD-EC8FE57A0382}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D17FEA95-8929-4E60-A4FD-EC8FE57A0382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17FEA95-8929-4E60-A4FD-EC8FE57A0382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17FEA95-8929-4E60-A4FD-EC8FE57A0382}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

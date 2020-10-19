@@ -1,8 +1,11 @@
-﻿using System;
+﻿using ClassyChess1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DataLibrary;
+using static DataLibrary.BusinessLogic.UserProcessor;
 
 namespace ClassyChess1.Controllers
 {
@@ -25,6 +28,29 @@ namespace ClassyChess1.Controllers
             ViewBag.Message = "Sapphire Coffee Club contact page.";
 
             return View();
+        }
+
+        public ActionResult Registration()
+        {
+            ViewBag.Message = "Sapphire Coffee Club Chess League Sign Up.";
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Registration(UserModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                CreateUser();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View();
+            }
+            
         }
     }
 }

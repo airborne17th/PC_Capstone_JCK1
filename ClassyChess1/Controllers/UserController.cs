@@ -28,5 +28,20 @@ namespace ClassyChess1.Controllers
             users.Add(new UserModel { FirstName = "John", LastName = "Kyker", Email = "44642@nelnet.net", UserType = 2, Newsletter = true });
                 return View(users);
         }
+
+        public ActionResult MakeUser()
+        {
+            return View();
+        }
+
+        public ActionResult DeleteUser()
+        {
+            return View();
+        }
+
+        public ActionResult EditUser()
+        {
+            return View();
+        }
     }
 }

@@ -10,6 +10,6 @@ namespace ClassyChess1.Models
         public int MatchID { get; set; }
         public int Player1ID { get; set; }
         public int Player2ID { get; set; }
-        public int WinnerID { get; set; }
+        public int WinnerID { get; set; } = -1;
     }
 }
