@@ -66,5 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Published Profiles\ChessDB.publish.xml" />
+    <None Include="Published Profiles\ChessDB.publish1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ChessDB.refactorlog" />
   </ItemGroup>
 </Project>

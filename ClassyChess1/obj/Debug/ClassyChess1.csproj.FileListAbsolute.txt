@@ -79,3 +79,5 @@ C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\roslyn\System.Runtime.
 C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\roslyn\System.Threading.Tasks.Extensions.dll
 C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\Dapper.dll
 C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\Dapper.xml
+C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\DataLibrary.dll
+C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\DataLibrary.pdb

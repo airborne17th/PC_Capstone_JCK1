@@ -10,7 +10,7 @@ using System.Data.SqlClient;
 
 namespace DataLibrary.DataAccess
 {
-    public static class SQLDataAccess
+    public static class SqlDataAccess
     {
         public static string GetConnectionString(string connectionName = "ChessDB")
         {

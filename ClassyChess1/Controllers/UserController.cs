@@ -5,13 +5,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-/*        public int UserID { get; set; }
-public string FirstName { get; set; }
-public string LastName { get; set; }
-public string Email { get; set; }
-public int UserType { get; set; } = 1;
-public bool Newsletter { get; set; } = false; */
-
 namespace ClassyChess1.Controllers
 {
     public class UserController : Controller
@@ -25,7 +18,7 @@ namespace ClassyChess1.Controllers
         public ActionResult ListUser()
         {
             List<UserModel> users = new List<UserModel>();
-            users.Add(new UserModel { FirstName = "John", LastName = "Kyker", Email = "44642@nelnet.net", UserType = 2, Newsletter = true });
+            // users.Add(new UserModel { FirstName = "John", LastName = "Kyker", Email = "44642@nelnet.net", UserType = 2, Newsletter = true });
                 return View(users);
         }
 

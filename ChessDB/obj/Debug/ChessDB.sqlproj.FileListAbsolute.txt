@@ -1,9 +1,6 @@
 C:\Users\acepi\source\repos\ClassyChess1\ChessDB\bin\Debug\ChessDB.dacpac
 C:\Users\acepi\source\repos\ClassyChess1\ChessDB\bin\Debug\ChessDB.dll
 C:\Users\acepi\source\repos\ClassyChess1\ChessDB\bin\Debug\ChessDB.pdb
-C:\Users\acepi\source\repos\ClassyChess1\ChessDB\obj\Debug\Model.xml
-C:\Users\acepi\source\repos\ClassyChess1\ChessDB\obj\Debug\refactor.xml
-C:\Users\acepi\source\repos\ClassyChess1\ChessDB\obj\Debug\postdeploy.sql
-C:\Users\acepi\source\repos\ClassyChess1\ChessDB\obj\Debug\predeploy.sql
 C:\Users\acepi\source\repos\ClassyChess1\ChessDB\obj\Debug\ChessDB.dll
 C:\Users\acepi\source\repos\ClassyChess1\ChessDB\obj\Debug\ChessDB.pdb
+C:\Users\acepi\source\repos\ClassyChess1\ChessDB\obj\Debug\ChessDB.sqlprojAssemblyReference.cache

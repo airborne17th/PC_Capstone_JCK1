@@ -43,7 +43,11 @@ namespace ClassyChess1.Controllers
         {
             if (ModelState.IsValid)
             {
-                CreateUser();
+                int recordCreated = CreateUser(model.FirstName,
+                    model.LastName,
+                    model.Email, 
+                    model.Password,
+                    model.Newsletter);
                 return RedirectToAction("Index");
             }
             else

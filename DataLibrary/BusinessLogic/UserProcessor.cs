@@ -10,29 +10,28 @@ namespace DataLibrary.BusinessLogic
 {
     public static class UserProcessor
     {
-        public static int CreateUser(string firstName, string lastName, string password, string email, int userType, bool newsletter)
+        public static int CreateUser
+            (string firstName, string lastName, string email, string password, bool newsletter)
         {
             UserModel data = new UserModel
             {
                 FirstName = firstName,
                 LastName = lastName,
-                Password = password,
                 Email = email,
-                UserType = userType,
+                Password = password,
                 Newsletter = newsletter
             };
 
-            string sql = @"insert into dbo.User(FirstName, LastName, Email, Password, UserType, Newsletter)
-                values (@FirstName, @LastName, @Email, @Password, @UserType, @Newsletter);";
+            string sql = @"insert into dbo.Users(FirstName, LastName, Email, Password, Newsletter)
+                values (@FirstName, @LastName, @Email, @Password, @Newsletter);";
 
-            return SQLDataAccess.SaveData(sql, data);
+            return SqlDataAccess.SaveData(sql, data);
         }
 
         public static List<UserModel> LoadUsers()
         {
-            string sql = @"select *
-                            from dbo.Users;";
-            return SQLDataAccess.LoadData<UserModel>(sql);
+            string sql = @"select * from dbo.Users;";
+            return SqlDataAccess.LoadData<UserModel>(sql);
         }
     }
 }
