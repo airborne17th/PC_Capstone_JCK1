@@ -285,6 +285,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -304,6 +305,10 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ChessDB\ChessDB.sqlproj">
+      <Project>{d17fea95-8929-4e60-a4fd-ec8fe57a0382}</Project>
+      <Name>ChessDB</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataLibrary\DataLibrary.csproj">
       <Project>{f6b430c4-2ea4-49c0-9dd1-e2cff53fe439}</Project>
       <Name>DataLibrary</Name>

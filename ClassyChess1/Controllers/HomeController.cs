@@ -56,5 +56,43 @@ namespace ClassyChess1.Controllers
             }
             
         }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Login(UserModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        using (DB_Entities db = new DB_Entities())
+        //        {
+        //            var obj = db.UserProfiles.Where(a => a.UserName.Equals(model.Email) && a.Password.Equals(model.Password)).FirstOrDefault();
+        //            if (obj != null)
+        //            {
+        //                Session["UserEmail"] = obj.UserEmail.ToString();
+        //                Session["UserName"] = obj.UserName.ToString();
+        //                return RedirectToAction("UserDashBoard");
+        //            }
+        //        }
+        //    }
+        //    return View(model);
+        //}
+
+        public ActionResult UserDashBoard()
+        {
+            if (Session["UserID"] != null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Login");
+            }
+        }
+
     }
 }

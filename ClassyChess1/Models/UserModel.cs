@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace ClassyChess1.Models
 {
@@ -19,11 +21,13 @@ namespace ClassyChess1.Models
         [StringLength(100, MinimumLength = 10, ErrorMessage = "Password needs to be at least 10 characters in length.")]
         public string Password { get; set; }
         [DataType(DataType.Password)]
-        [Compare("Password", ErrorMessage = "Passwords must match.")]
+        [System.ComponentModel.DataAnnotations.Compare("Password", ErrorMessage = "Passwords must match.")]
         [Display(Name = "Confirm Password")]
         public string ConfirmPassword { get; set; }
         [DataType(DataType.EmailAddress)]
         [Required(ErrorMessage = "Requires an email.")]
+        //[Remote("EmailExist", "Email", AdditionalFields = "Id",
+        //        ErrorMessage = "Email already registered")]
         public string Email { get; set; }
         public int UserType { get; set; } = 1;
         [Display(Name = "Want to be part of our Newsletter?")]

@@ -81,3 +81,5 @@ C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\Dapper.dll
 C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\Dapper.xml
 C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\DataLibrary.dll
 C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\DataLibrary.pdb
+C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\ChessDB.dll
+C:\Users\acepi\source\repos\ClassyChess1\ClassyChess1\bin\ChessDB.pdb

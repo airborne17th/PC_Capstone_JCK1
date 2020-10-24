@@ -36,5 +36,19 @@ namespace ClassyChess1.Controllers
         {
             return View();
         }
+
+        //public JsonResult EmailExist(string Email, int? Id)
+        //{
+        //    var validateName = db.Users.FirstOrDefault
+        //                        (x => x.ProductName == Email && x.Id != Id);
+        //    if (validateName != null)
+        //    {
+        //        return Json(false, JsonRequestBehavior.AllowGet);
+        //    }
+        //    else
+        //    {
+        //        return Json(true, JsonRequestBehavior.AllowGet);
+        //    }
+        //}
     }
 }

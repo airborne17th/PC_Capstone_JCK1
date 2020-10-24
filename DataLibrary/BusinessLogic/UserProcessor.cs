@@ -28,6 +28,16 @@ namespace DataLibrary.BusinessLogic
             return SqlDataAccess.SaveData(sql, data);
         }
 
+        public static void AddUserID()
+        {
+            string sql = "CREATE TRIGGER incrementValue ON Test FOR Insert AS Update Test set columnvalue = columnvalue + 1 where id in (select id from inserted) GO";
+        }
+
+        public static void UniqueEmail()
+        {
+            
+        }
+
         public static List<UserModel> LoadUsers()
         {
             string sql = @"select * from dbo.Users;";
